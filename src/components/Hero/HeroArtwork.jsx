@@ -24,7 +24,7 @@ export default function HeroArtwork() {
       <img
         src={fox}
         alt="Nix, the orange fox, holding a double-barreled shotgun"
-        className="ml-auto mt-6 w-[72%] md:absolute md:right-10 md:bottom-0 md:z-0 md:mt-0 md:w-[51%] animate-fox-entrance"
+        className="ml-auto mt-6 w-[72%] md:absolute md:right-10 md:-bottom-5 md:z-0 md:mt-0 md:w-[51%] animate-fox-entrance"
       />
     </div>
   );

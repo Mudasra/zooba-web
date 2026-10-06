@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Bubblegum Sans";
+  src: url("./assets/fonts/bubblegum-sans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Colors (sampled from the reference) */
+  --color-brand-blue: #38aef8;
+  --color-brand-coral: #f26b4f;
+  --color-page: #f4f2f1;
+  --color-ink: #3a3a3a;
+  --color-logo: #3ebeff;
+  --color-cream: #fdfcd1;
+  --color-arc: #48eafe;
+  --color-disc: #3597e3;
+  --color-social-facebook: #1f73bb;
+  --color-social-twitter: #38aef8;
+  --color-social-youtube: #f32844;
+
+  /* Fonts: the design uses Bubblegum Sans throughout */
+  --font-display: "Bubblegum Sans", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Bubblegum Sans", "Trebuchet MS", system-ui, sans-serif;
+
+  /* Breakpoints (adds to Tailwind defaults) */
+  --breakpoint-xs: 375px;
+  --breakpoint-3xl: 1920px;
+
+  /* Shape + depth */
+  --radius-card: 1.75rem;
+  --shadow-card: 0 10px 30px rgb(0 0 0 / 0.12);
+
+  /* Typography scale: fluid, tuned to the 1440px design */
+  --text-display: clamp(3.25rem, 11vw, 10rem);
+  --text-display--line-height: 0.9;
+  --text-title: clamp(1.5rem, 5vw, 2.5rem);
+  --text-title--line-height: 1.1;
+  --text-meta: clamp(1.25rem, 1.95vw, 1.75rem);
+  --text-meta--line-height: 1;
+  --text-pill: clamp(1rem, 1.55vw, 1.4rem);
+  --text-pill--line-height: 1.1;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-page font-body text-ink antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  img {
+    @apply block max-w-full;
+  }
+}

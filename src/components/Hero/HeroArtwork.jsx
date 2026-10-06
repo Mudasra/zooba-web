@@ -9,18 +9,18 @@ export default function HeroArtwork() {
         src={cloud}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute top-2 right-2 z-0 w-[28%] md:top-9 md:right-auto md:left-[31.5%] md:w-[20.5%]"
+        className=" absolute top-2 right-2 z-10 w-[28%] md:top-9 md:right-auto md:left-[31.5%] md:w-[20.5%]"
       />
       <img
         src={appleCloud}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-[26%] z-0 hidden w-[21.3%] md:block"
+        className=" absolute bottom-0 left-[26%] z-10 hidden w-[21.3%] md:block"
       />
       <img
         src={fox}
         alt="Nix, the orange fox, holding a double-barreled shotgun"
-        className="pointer-events-none ml-auto mt-6 w-[72%] md:absolute md:right-10 md:bottom-0 md:z-0 md:mt-0 md:w-[51%]"
+        className=" ml-auto mt-6 w-[72%] md:absolute md:right-10 md:bottom-0 md:z-0 md:mt-0 md:w-[51%]"
       />
     </>
   );

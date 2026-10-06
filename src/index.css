@@ -62,4 +62,57 @@
   }
 }
 
+@import "tailwindcss";
 
+@theme {
+  /* Keyframes Definition */
+  @keyframes fox-entrance {
+    0% {
+      opacity: 0;
+      transform: translateX(60px) scale(0.96);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-8px) scale(1.02);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+  }
+
+  @keyframes cloud-drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes apple-pop {
+    0% {
+      opacity: 0;
+      transform: translateY(15px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes idle-float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  --animate-fox-entrance: fox-entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-cloud-drop: cloud-drop 0.7s ease-out 0.2s forwards, idle-float 5s ease-in-out 0.9s infinite;
+  --animate-apple-pop: apple-pop 0.6s ease-out 0.4s forwards, idle-float 6s ease-in-out 1s infinite;
+}

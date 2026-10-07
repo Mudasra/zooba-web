@@ -15,3 +15,4 @@ export default function FaceSquareIcon(props) {
     </svg>
   );
 }
+

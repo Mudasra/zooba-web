@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EpisodeToggle from "./EpisodeToggle";
+import EpisodeToggle from "./EpisodeToggle"
 
 export default function EpisodeRow({ number, tag, title, details }) {
   const [open, setOpen] = useState(false);

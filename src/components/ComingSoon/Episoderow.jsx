@@ -9,10 +9,10 @@ export default function EpisodeRow({ number, tag, title, details }) {
     <li className="rounded-2xl bg-white shadow-[0_6px_18px_rgb(80_110_140/0.14)]">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-3 p-5 md:h-[clamp(5rem,10vw,9rem)] md:flex-nowrap md:justify-between md:px-[clamp(1.25rem,6.3vw,5.7rem)] md:py-0">
         <span className="text-episode-no text-brand-blue">{number}</span>
-        <span className="inline-flex h-[clamp(2rem,3.85vw,3.4rem)] items-center rounded-full border-2 border-[#f3f3f3] px-[clamp(1rem,2.15vw,2rem)] text-tag uppercase text-slate">
-          {tag}
+        <span className="inline-flex cursor-pointer h-[clamp(2rem,3.85vw,3.4rem)] items-center rounded-full border-2 border-[#f3f3f3] px-[clamp(1rem,2.15vw,2rem)] text-tag uppercase text-[#7791a2] text-slate">
+        {tag}
         </span>
-        <h3 className="order-last basis-full text-episode-title uppercase text-brand-blue md:order-none md:basis-auto">
+        <h3 className="order-last basis-full text-episode-title uppercase text-brand-blue md:order-0 md:basis-auto">
           {title}
         </h3>
         <EpisodeToggle
@@ -20,7 +20,7 @@ export default function EpisodeRow({ number, tag, title, details }) {
           onToggle={() => setOpen((value) => !value)}
           controls={panelId}
           label={title}
-          className="ml-auto md:ml-0"
+          className="ml-auto cursor-pointer md:ml-0"
         />
       </div>
       {open && details && (
@@ -31,3 +31,4 @@ export default function EpisodeRow({ number, tag, title, details }) {
     </li>
   );
 }
+

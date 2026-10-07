@@ -1,7 +1,7 @@
 import Container from "../ui/Container";
 import { comingSoon } from "./Comingsoon";
-import ComingSoonHeader from "./ComingSoonHeader";
-import EpisodeRow from "./EpisodeRow";
+import ComingSoonHeader from "./Comingsoonheader";
+import EpisodeRow from "./Episoderow";
 
 export default function ComingSoon() {
   return (

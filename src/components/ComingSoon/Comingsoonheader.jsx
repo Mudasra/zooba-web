@@ -9,7 +9,7 @@ export default function ComingSoonHeader() {
       >
         {comingSoon.title}
       </h2>
-      <p className="max-w-[32em] text-copy uppercase text-slate">{comingSoon.copy}</p>
+      <p className="max-w-[32em] text-copy text-[#7791a2] uppercase text-slate">{comingSoon.copy}</p>
     </div>
   );
 }

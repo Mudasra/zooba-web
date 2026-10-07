@@ -43,6 +43,15 @@
   --text-copy--line-height: 2;
   --text-btn: clamp(1rem, 1.46vw, 1.3rem);
   --text-btn--line-height: 1;
+
+  --text-section: clamp(2.5rem, 5.3vw, 4.8rem);
+  --text-section--line-height: 1;
+  --text-episode-no: clamp(2.25rem, 4.46vw, 4rem);
+  --text-episode-no--line-height: 1;
+  --text-episode-title: clamp(1.75rem, 3.69vw, 3.3rem);
+  --text-episode-title--line-height: 1;
+  --text-tag: clamp(0.7rem, 1.24vw, 1.1rem);
+  --text-tag--line-height: 1;
 }
 
 @layer base {

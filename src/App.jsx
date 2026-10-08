@@ -1,3 +1,4 @@
+import BattleArena from "./components/BattleArena/Battlearena.jsx";
 import ComingSoon from "./components/ComingSoon/Comingsoon.jsx";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <TvPromo />
         <ComingSoon />
+        <BattleArena />
       </main>
     </>
   );

@@ -1,6 +1,6 @@
 
 import Container from "../ui/Container";
-import BattleArenaArtwork from "./BattleArenaArtwork";
+import BattleArenaArtwork from "./BattleArenaArtwork"
 import BattleArenaContent from "./Battlearenacontent";
 import PromoCard from "./Promocard";
 

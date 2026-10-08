@@ -1,7 +1,7 @@
 
 import Container from "../ui/Container";
 import BattleArenaArtwork from "./BattleArenaArtwork";
-import BattleArenaContent from "./BattleArenaContent";
+import BattleArenaContent from "./Battlearenacontent";
 import PromoCard from "./Promocard";
 
 export default function BattleArena() {

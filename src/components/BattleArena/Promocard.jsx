@@ -1,6 +1,6 @@
 export default function PromoCard({ className = "", children }) {
   return (
-    <article className={`grid overflow-hidden bg-white ${className}`}>
+    <article className={`grid rounded-2xl overflow-hidden bg-white ${className}`}>
       {children}
     </article>
   );

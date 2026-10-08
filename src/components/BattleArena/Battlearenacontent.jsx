@@ -6,7 +6,7 @@ export default function BattleArenaContent() {
 
   const heading = (
     <h2 id="battle-arena-title" className="uppercase text-brand-blue">
-      <span className="block text-title-xl">{title.lead}</span>
+      <span className="block text-4xl md:text-5xl lg:text-6xl text-title-xl">{title.lead}</span>
       <span className="mt-1 block text-title leading-none">{title.sub}</span>
     </h2>
   );

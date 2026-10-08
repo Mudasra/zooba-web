@@ -13,7 +13,7 @@ export default function TvPromo() {
       className={`relative z-10 pb-12 md:pb-16 ${splitBackground}`}
     >
       <Container>
-        <PromoCard className="rounded-card shadow-[0_10px_24px_rgb(150_40_10/0.28)] md:aspect-[615/233] md:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
+        <PromoCard className="rounded-card shadow-[0_10px_24px_rgb(150_40_10/0.28)] md:aspect-615/233 md:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
           <TvPromoArtwork />
           <TvPromoContent />
         </PromoCard>

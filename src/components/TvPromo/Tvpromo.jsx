@@ -1,6 +1,6 @@
 import PromoCard from "../BattleArena/Promocard";
 import Container from "../ui/Container";
-import TvPromoArtwork from "./TvPromoArtwork";
+import TvPromoArtwork from "./TvPromoartwork";
 import TvPromoContent from "./Tvpromocontent";
 
 const splitBackground =

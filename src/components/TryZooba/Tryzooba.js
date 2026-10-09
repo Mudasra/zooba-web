@@ -8,8 +8,8 @@ export const tryZooba = {
   title: "Try Zooba",
   copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
   features: [
-    { id: "hd", badge: "HD", ring: true, title: "Full HD", sub: "Full HD Resolution" },
-    { id: "trial", badge: "07", ring: false, title: "Free", sub: "7 Days Trial" },
+    { id: "hd", badge: "HD", tone: "light", title: "Full HD", sub: "Full HD Resolution" },
+    { id: "trial", badge: "07", tone: "dark", title: "Free", sub: "7 Days Trial" },
   ],
   cta: { label: "Try It Now", href: "#try", icon: puma },
   penguin: cartoon5,

@@ -7,8 +7,5 @@ export default function HeaderLogo() {
     >
       Zooba
     </a>
-
-
-    
   );
 }

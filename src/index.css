@@ -21,6 +21,16 @@
   --color-social-facebook: #1f73bb;
   --color-social-twitter: #38aef8;
   --color-social-youtube: #f32844;
+    --text-tag: clamp(0.7rem, 1.24vw, 1.1rem);
+  --text-tag--line-height: 1;
+  --text-cta-title: clamp(2.75rem, 6.74vw, 6.1rem);
+  --text-cta-title--line-height: 1;
+  --text-lead: clamp(0.95rem, 1.3vw, 1.17rem);
+  --text-lead--line-height: 2;
+  --text-cta-sub: clamp(1.75rem, 3.5vw, 3.15rem);
+  --text-cta-sub--line-height: 1.2;
+  --text-cta-feature: clamp(1.5rem, 2.25vw, 2.03rem);
+  --text-cta-feature--line-height: 1;
 
   --font-display: "Bubblegum Sans", "Trebuchet MS", system-ui, sans-serif;
   --font-body: "Bubblegum Sans", "Trebuchet MS", system-ui, sans-serif;
@@ -122,4 +132,13 @@
   --animate-fox-entrance: fox-entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-cloud-drop: cloud-drop 0.7s ease-out 0.2s forwards, idle-float 5s ease-in-out 0.9s infinite;
   --animate-apple-pop: apple-pop 0.6s ease-out 0.4s forwards, idle-float 6s ease-in-out 1s infinite;
+}
+
+@utility bg-split-cta {
+  --split: calc((100% - min(100%, 80rem)) / 2 + min(100%, 80rem) * 0.592);
+  background-image: linear-gradient(
+    to right,
+    var(--color-brand-blue) var(--split),
+    var(--color-brand-coral) var(--split)
+  );
 }

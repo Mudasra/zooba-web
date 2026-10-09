@@ -1,4 +1,4 @@
-import TryItButton from "./TryItButton";
+import TryItButton from "./Tryitbutton";
 import { tryZooba } from "./Tryzooba";
 import TryZoobaFeatures from "./Tryzoobafeatures";
 

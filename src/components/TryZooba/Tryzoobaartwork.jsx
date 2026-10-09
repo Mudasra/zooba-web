@@ -6,7 +6,7 @@ export default function TryZoobaArtwork() {
       src={tryZooba.penguin}
       alt=""
       aria-hidden="true"
-      className="pointer-events-none relative z-10 -mt-8 -mb-12 ml-auto w-[46%] md:absolute md:bottom-0 md:left-[41.4%] md:m-0 md:w-[34.2%]"
+      className="relative z-10 -mt-8 -mb-12 ml-auto w-[46%] md:absolute md:bottom-0 md:left-[40%] md:m-0 md:w-[34.2%]"
     />
   );
 }

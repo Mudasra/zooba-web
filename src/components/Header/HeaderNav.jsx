@@ -9,7 +9,7 @@ export default function HeaderNav({ className = "", onNavigate }) {
             <a
               href={href}
               onClick={onNavigate}
-              className="font-display relative uppercase text-white transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-cream after:transition-all after:duration-300 hover:text-cream hover:after:w-full " >
+              className="font-display relative uppercase text-white transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-cream after:transition-all after:duration-300 hover:text-cream hover:after:w-full " >
               {label}
             </a>
           </li>

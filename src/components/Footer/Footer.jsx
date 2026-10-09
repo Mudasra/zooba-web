@@ -1,10 +1,10 @@
 import Container from "../ui/Container";
-import SocialLinks from "../ui/SocialLinks";
 import HeaderLogo from "../Header/HeaderLogo";
 import NewsletterForm from "./NewsletterForm";
 import FooterNav from "./FooterNav";
 import Copyright from "./Copyright";
 import FooterCloud from "./FooterCloud";
+import FooterSocialLinks from "./FooterSocialLinks";
 
 export default function Footer() {
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-center justify-between gap-4 pt-7.5 sm:flex-row">
             <Copyright />
-            <SocialLinks />
+            <FooterSocialLinks />
           </div>
         </div>
       </Container>

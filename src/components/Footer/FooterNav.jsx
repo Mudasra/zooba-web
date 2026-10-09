@@ -8,7 +8,7 @@ export default function FooterNav({ className = "" }) {
           <li key={label}>
             <a
               href={href}
-              className="relative block font-display text-2xl font-normal uppercase text-[#FF7A52] transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-[#FF7A52] after:transition-all after:duration-300 hover:after:w-full"
+              className="relative block font-display text-xl font-normal uppercase text-[#FF7A52] transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-[#FF7A52] after:transition-all after:duration-300 hover:after:w-full"
             >
               {label}
             </a>

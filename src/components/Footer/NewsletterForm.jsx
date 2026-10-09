@@ -23,14 +23,14 @@ export default function NewsletterForm({ className = "" }) {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="SUBSCRIBE OUR NEWSLETTER"
-        className="h-full min-w-0 flex-1 bg-transparent pl-6 pr-2 font-display text-[13px] uppercase tracking-normal text-slate-500 outline-none placeholder:text-[#8FB3C9]"
+        className="h-full min-w-0 flex-1 bg-transparent pl-6 pr-2 font-display text-[14px] uppercase tracking-normal text-slate-500 outline-none placeholder:text-[#8FB3C9]"
       />
       <button
         type="submit"
-        className="flex h-full shrink-0 items-center justify-center gap-2 rounded-full bg-linear-to-br from-[#F4674A] to-[#FF8F5C] px-6 font-display text-sm uppercase text-white transition-all duration-300 ease-out hover:brightness-110 active:scale-95"
+        className="flex cursor-pointer h-full shrink-0 items-center justify-center gap-2 rounded-full bg-linear-to-br from-[#F4674A] to-[#FF8F5C] px-6 font-display text-sm uppercase text-white transition-all duration-300 ease-out hover:brightness-110 active:scale-95"
       >
         <span>Subscribe</span>
-        <ArrowRight className="size-7" strokeWidth={3} />
+        <ArrowRight className="size-5" strokeWidth={3} />
       </button>
     </form>
   );

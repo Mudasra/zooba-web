@@ -15,7 +15,7 @@ export default function NewsletterForm({ className = "" }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className={`flex h-16 w-full max-w-96.25 items-center overflow-hidden rounded-full border border-slate-200 bg-transparent ${className}`}
+      className={`flex h-16 w-full max-w-96.25 items-center overflow-hidden rounded-full border border-[#e3e7eb] bg-transparent ${className}`}
     >
       <input
         type="email"

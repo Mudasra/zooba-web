@@ -15,7 +15,7 @@ export default function NewsletterForm({ className = "" }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className={`relative flex w-full max-w-md items-center rounded-full border border-slate-200 bg-slate-100/70 p-1 shadow-inner ${className}`}
+      className={`flex h-16 w-full max-w-96.25 items-center overflow-hidden rounded-full border border-slate-200 bg-transparent ${className}`}
     >
       <input
         type="email"
@@ -23,14 +23,14 @@ export default function NewsletterForm({ className = "" }) {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="SUBSCRIBE OUR NEWSLETTER"
-        className="w-full bg-transparent px-5 py-2.5 font-display text-sm tracking-wider uppercase text-slate-500 outline-none placeholder:text-slate-400"
+        className="h-full min-w-0 flex-1 bg-transparent pl-6 pr-2 font-display text-[13px] uppercase tracking-normal text-slate-500 outline-none placeholder:text-[#8FB3C9]"
       />
       <button
         type="submit"
-        className="flex shrink-0 items-center justify-center gap-2 rounded-full bg-[#F37053] px-6 py-2.5 font-display text-sm font-semibold uppercase text-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-1.015 hover:brightness-110 hover:shadow-md active:translate-y-0 active:scale-95"
+        className="flex h-full shrink-0 items-center justify-center gap-2 rounded-full bg-linear-to-br from-[#F4674A] to-[#FF8F5C] px-6 font-display text-sm uppercase text-white transition-all duration-300 ease-out hover:brightness-110 active:scale-95"
       >
         <span>Subscribe</span>
-        <ArrowRight className="size-4" />
+        <ArrowRight className="size-7" strokeWidth={3} />
       </button>
     </form>
   );

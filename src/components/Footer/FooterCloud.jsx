@@ -2,11 +2,13 @@ import footerCloudImg from "../../assets/images/footer-cloud.png";
 
 export default function FooterCloud({ className = "" }) {
   return (
-    <div className={`pointer-events-none ${className}`}>
+    <div
+      className={`pointer-events-none absolute inset-y-0 right-0 z-0 flex items-center justify-end overflow-hidden ${className}`}
+    >
       <img
         src={footerCloudImg}
         alt="Decorative Cloud with Heart"
-        className="w-56 object-contain drop-shadow-md sm:w-72 md:w-80 lg:w-96"
+        className="h-full w-auto max-w-none object-cover object-right"
       />
     </div>
   );

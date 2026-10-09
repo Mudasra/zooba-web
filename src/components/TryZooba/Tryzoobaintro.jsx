@@ -1,6 +1,6 @@
 import TryItButton from "./TryItButton";
 import { tryZooba } from "./Tryzooba";
-import TryZoobaFeatures from "./TryZoobaFeatures";
+import TryZoobaFeatures from "./Tryzoobafeatures";
 
 export default function TryZoobaIntro() {
   return (

@@ -1,5 +1,5 @@
 import { tryZooba } from "./Tryzooba";
-import StoreButton from "./StoreButton";
+import StoreButton from "./Storebutton";
 
 export default function MoreWays() {
   const { icon, title, stores } = tryZooba.more;

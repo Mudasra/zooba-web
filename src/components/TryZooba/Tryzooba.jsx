@@ -1,6 +1,6 @@
 import Container from "../ui/Container";
 import MoreWays from "./Moreways";
-import TryZoobaArtwork from "./Tryzoobazrtwork";
+import TryZoobaArtwork from "./Tryzoobartwork";
 import TryZoobaIntro from "./Tryzoobaintro";
 
 export default function TryZooba() {

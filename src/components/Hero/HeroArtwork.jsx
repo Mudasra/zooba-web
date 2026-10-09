@@ -5,7 +5,6 @@ import fox from "../../assets/images/hero-fox.png";
 export default function HeroArtwork() {
   return (
     <div 
-    // className="relative w-full h-full min-h-[350px] md:min-h-[500px]"
     >
       <img
         src={cloud}

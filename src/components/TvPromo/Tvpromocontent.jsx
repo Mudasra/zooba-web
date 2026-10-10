@@ -19,7 +19,7 @@ export default function TvPromoContent() {
       heading={heading}
       copy={copy}
       cta={cta}
-      copyClassName="mt-4"
+      copyClassName="mt-4 text-[#95bbd0]"
       ctaClassName="mt-4"
     />
   );

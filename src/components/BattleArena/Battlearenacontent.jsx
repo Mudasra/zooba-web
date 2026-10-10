@@ -16,7 +16,7 @@ export default function BattleArenaContent() {
       heading={heading}
       copy={copy}
       cta={cta}
-      copyClassName="mt-2 text-justify leading-[2.55]"
+      copyClassName="mt-2 text-[#95bbd0] text-justify leading-[2.55]"
       ctaClassName="mt-7"
       insetClassName="md:pl-[clamp(1.25rem,2.8vw,2.5rem)]"
     />
